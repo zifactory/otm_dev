@@ -20,9 +20,6 @@ import app.models.Book;
 import org.javalite.activeweb.AppController;
 import org.javalite.activeweb.annotations.POST;
 
-/**
- * @author Igor Polevoy
- */
 public class BooksController extends AppController {
 
     public void index() {
