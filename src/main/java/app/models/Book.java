@@ -19,13 +19,11 @@ package app.models;
 import org.javalite.activejdbc.Model;
 import org.javalite.activejdbc.annotations.Table;
 
-/**
- * @author Igor Polevoy
- */
+
 @Table("tb_buku")
 public class Book extends Model {
-//    static {
-//        validatePresenceOf("judul", "isbn");
-//        //validatePresenceOf("author").message("Author must be provided");
-//    }
+    static {
+        validatePresenceOf("judul", "isbn");
+        //validatePresenceOf("author").message("Author must be provided");
+    }
 }

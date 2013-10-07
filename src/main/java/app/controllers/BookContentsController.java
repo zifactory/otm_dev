@@ -28,12 +28,11 @@ import org.javalite.activeweb.AppController;
 public class BookContentsController extends AppController {
 
     public void index() {
-
         render().noLayout();
     }
 
     public void show() {
-        view("ajax",Book.findAll().toJson(true));
+        view("ajax", Book.findAll().toJson(true));
         render().noLayout();
     }
 }
