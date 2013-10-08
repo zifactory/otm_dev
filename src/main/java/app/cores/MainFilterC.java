@@ -1,4 +1,5 @@
-package app.cores;/*
+package app.cores;
+/*
  * Copyright (C) 2013 surya || nanang.ask@gmail.com
  *
  * This program is free software; you can redistribute it and/or
